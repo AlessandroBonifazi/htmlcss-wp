@@ -20,7 +20,7 @@
     height: 100%;
 }
 .container {
-    width: 60%; 
+    width: 80%; 
     margin: auto;
 }
 
@@ -81,15 +81,18 @@ header li a {
 .content {
     padding-bottom: 12px;
     background-color: rgb(121, 121, 255);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-#bar {
-    height: 60px;
-    background-color: rgb(131, 220, 250);
+#bar { 
+    background-color: white;
     margin-bottom: 12px;
 }
 
+#bar p{
+    font-family: 'Noto Sans', sans-serif;
+    color: gray;
+}
 .column {
     height: 316px;
     width: 21%;

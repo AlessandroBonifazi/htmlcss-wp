@@ -15,9 +15,13 @@
     display: table;
 }
 
+.overlay {
+    background-color: rgba(247, 247, 220, 0.2);
+    height: 100%;
+}
 .container {
     width: 60%; 
-    margin: 25px auto;
+    margin: auto;
 }
 
 .logo {
@@ -58,12 +62,22 @@ header li a {
 /* Fine bottoni */
 
 .jumbotron {
-    height: 300px;
-    background-color: rgb(135, 222, 135);
+    height: 380px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 20px;
     border-radius: 10px;
+    position: relative;
 }
 
+.banner {
+    width: 50%;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
 .content {
     padding-bottom: 12px;
     background-color: rgb(121, 121, 255);
@@ -92,7 +106,7 @@ header li a {
 }
 
 footer {
-    height: 40px;
+    height: 25px;
     background-color: rgb(141, 40, 224);
     margin-top: 8px;
 }

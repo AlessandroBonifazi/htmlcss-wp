@@ -22,18 +22,18 @@
 
 header {
     height: 85px;
-    background-color: rgb(227, 124, 253);
+    background-color: white;
     padding: 5px 10px;
 }
 
+/* Inizio bottoni */
 header li {
     list-style-type: none;
     display: inline-block;
     background-color: white;
-    padding: 5px 15px;
-    border: 1px solid gray;
+    padding: 5px 5px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 14px;
     border-right-width: 2px;
 }
 
@@ -46,15 +46,13 @@ header li a {
     text-decoration: none;
     color: gray;
 }
-
-nav {
-    text-align: center;
-}
+/* Fine bottoni */
 
 .jumbotron {
     height: 300px;
     background-color: rgb(135, 222, 135);
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 .content {

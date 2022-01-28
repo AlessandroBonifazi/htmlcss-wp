@@ -20,11 +20,10 @@
     margin: 25px auto;
 }
 
-header {
-    height: 85px;
-    background-color: white;
-    padding: 5px 10px;
-    border: 2px solid black;
+.logo {
+    height: 60px;
+    padding-right: 15px;
+    border-right: 2px solid rgb(221, 221, 221);
 }
 
 /* Inizio bottoni */
@@ -32,15 +31,24 @@ header li {
     list-style-type: none;
     display: inline-block;
     background-color: white;
-    padding: 5px 5px;
-    border-radius: 10px;
+    padding: 3px 5px;
+    border-radius: 7px;
     font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Sans', sans-serif;
     border-right-width: 2px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+header li:hover {
+    background-color: rgb(221, 221, 221);
 }
 
 header ul {
     font-size: 0;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 header li a {

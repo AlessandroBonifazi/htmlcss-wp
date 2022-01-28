@@ -21,7 +21,7 @@
     border-radius: 10px;
 }
 .container {
-    width: 80%; 
+    width: 1100px; 
     margin: auto;
 }
 
@@ -82,23 +82,23 @@ header li a {
 }
 .content {
     padding-bottom: 12px;
-    background-color: rgb(121, 121, 255);
     margin-top: 10px;
 }
 
+.content p,h1,h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.content p {
+    color: gray;
+}
 #bar { 
     background-color: white;
     margin-bottom: 12px;
 }
 
-#bar p{
-    font-family: 'Noto Sans', sans-serif;
-    color: gray;
-}
-.column {
-    height: 316px;
+.column {   
     width: 18%;
-    /* background-color: rgb(131, 220, 250); */
     float: left;
 }
 
@@ -124,8 +124,18 @@ header li a {
     height: 316px;
     width: 60%;
     margin: 0 2%;
-    background-color: rgb(131, 220, 250);
     float: left;
+}
+
+.img-main{
+    height: 150px;
+    width: auto;
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    
 }
 
 footer {

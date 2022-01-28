@@ -16,8 +16,9 @@
 }
 
 .overlay {
-    background-color: rgba(247, 247, 220, 0.2);
+    background-color: rgba(155, 110, 110, 0.3);
     height: 100%;
+    border-radius: 10px;
 }
 .container {
     width: 80%; 
@@ -47,7 +48,7 @@ header li {
 }
 
 header li:hover {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(235, 235, 235);
 }
 
 header ul {
@@ -77,6 +78,7 @@ header li a {
     position: absolute;
     left: 30px;
     bottom: 30px;
+    color: white;
 }
 .content {
     padding-bottom: 12px;
@@ -95,14 +97,32 @@ header li a {
 }
 .column {
     height: 316px;
-    width: 21%;
-    background-color: rgb(131, 220, 250);
+    width: 18%;
+    /* background-color: rgb(131, 220, 250); */
     float: left;
+}
+
+.img-col {
+    height: 150px;
+    width: auto;
+    background-image: url("../img/img-1.jpg");
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.img-col-right {
+    height: 150px;
+    width: auto;
+    background-image: url("../img/img-4.jpg");
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
 }
 
 .main {
     height: 316px;
-    width: 54%;
+    width: 60%;
     margin: 0 2%;
     background-color: rgb(131, 220, 250);
     float: left;

@@ -32,6 +32,10 @@
     border-right: 2px solid rgb(221, 221, 221);
 }
 
+nav {
+    margin-top: 3px;
+}
+
 /* Inizio bottoni */
 header li {
     list-style-type: none;

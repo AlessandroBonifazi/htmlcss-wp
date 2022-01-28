@@ -125,8 +125,7 @@ header li a {
     margin-bottom: 8px;
 }
 
-.main {
-    height: 316px;
+.main {   
     width: 60%;
     margin: 0 2%;
     float: left;
@@ -145,7 +144,6 @@ header li a {
 /* fine content */
 
 footer {
-    height: 25px;
     text-align: center;
     margin-top: 15px;
     color: red;

@@ -6,6 +6,7 @@
 
 /* .debug-mode {
     border: 2px solid black;
+    height: ;
 } */
 
 .clearfix::after {
@@ -22,6 +23,7 @@
 header {
     height: 85px;
     background-color: rgb(227, 124, 253);
+    padding: 5px 10px;
 }
 
 header li {
@@ -31,11 +33,22 @@ header li {
     padding: 5px 15px;
     border: 1px solid gray;
     border-radius: 10px;
+    font-size: 18px;
+    border-right-width: 2px;
+}
+
+header ul {
+    font-size: 0;
+    margin-top: 10px;
 }
 
 header li a {
     text-decoration: none;
     color: gray;
+}
+
+nav {
+    text-align: center;
 }
 
 .jumbotron {

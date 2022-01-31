@@ -115,19 +115,18 @@ header li a {
 .img-col {
     height: 150px;
     width: auto;
-    background-image: url("../img/img-1.jpg");
     background-size: cover;
-    border-radius: 8px;
+    background-position: center;
+    border-radius: 10px;
     margin-bottom: 8px;
 }
 
-.img-col-right {
-    height: 150px;
-    width: auto;
+.img-left {
+    background-image: url("../img/img-1.jpg");
+}
+
+.img-right {
     background-image: url("../img/img-4.jpg");
-    background-size: cover;
-    border-radius: 8px;
-    margin-bottom: 8px;
 }
 
 main {   
@@ -137,13 +136,7 @@ main {
 }
 
 .img-main{
-    height: 150px;
-    width: auto;
     background-image: url("../img/banner-2.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    margin-bottom: 8px; 
 }
 /* fine content */
 
